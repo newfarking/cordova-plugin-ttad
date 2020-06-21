@@ -1,0 +1,17 @@
+{
+  "name": "cordova-plugin-ttad",
+  "version": "0.1.0",
+  "description": "",
+  "cordova": {
+    "id": "cordova-plugin-ttad",
+    "platforms": [
+      "android"
+    ]
+  },
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-android"
+  ],
+  "author": "wangxinyuan",
+  "license": "ISC"
+}
