@@ -117,7 +117,7 @@ public class CordovaTTADPlugin extends CordovaPlugin {
             public void onRewardVideoAdLoad(TTRewardVideoAd ad) {
                 //Log.e(TAG, "Callback --> onRewardVideoAdLoad");
 
-                TToast.show(cordova.getActivity(), "rewardVideoAd loaded 广告类型：" + getAdType(ad.getRewardVideoAdType()));
+                //TToast.show(cordova.getActivity(), "rewardVideoAd loaded 广告类型：" + getAdType(ad.getRewardVideoAdType()));
                 mttRewardVideoAd = ad;
                 mttRewardVideoAd.setRewardAdInteractionListener(new TTRewardVideoAd.RewardAdInteractionListener() {
 
